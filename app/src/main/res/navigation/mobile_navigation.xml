@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.sweepstakeapp.ui.Home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/arabaKazanFragment"
+        android:name="com.example.sweepstakeapp.ui.ArabaKazan.ArabaKazanFragment"
+        android:label="@string/menu_araba"
+        tools:layout="@layout/fragment_araba_kazan" />
+    <fragment
+        android:id="@+id/bedavaKatilim"
+        android:name="com.example.sweepstakeapp.ui.BedavaKatılım.BedavaKatilim"
+        android:label="@string/menu_bedava"
+        tools:layout="@layout/fragment_bedava_katilim" />
+    <fragment
+        android:id="@+id/tatilKazanFragment"
+        android:name="com.example.sweepstakeapp.ui.TatilKazan.TatilKazanFragment"
+        android:label="@string/menu_tatil"
+        tools:layout="@layout/fragment_tatil_kazan" />
+    <fragment
+        android:id="@+id/telefonKazanFragment"
+        android:name="com.example.sweepstakeapp.ui.TelefonKazan.TelefonKazanFragment"
+        android:label="@string/menu_telefon"
+        tools:layout="@layout/fragment_telefon_kazan" />
+    <fragment
+        android:id="@+id/yeniBaslayanlarFragment"
+        android:name="com.example.sweepstakeapp.ui.YeniBaslayanlar.YeniBaslayanlarFragment"
+        android:label="@string/menu_yeni"
+        tools:layout="@layout/fragment_yeni_baslayanlar" />
+    <fragment
+        android:id="@+id/takipEttiklerimFragment"
+        android:name="com.example.sweepstakeapp.ui.TakipEttiklerim.TakipEttiklerimFragment"
+        android:label="Takip Ettiklerim"
+        tools:layout="@layout/fragment_takip_ettiklerim" />
+
+</navigation>

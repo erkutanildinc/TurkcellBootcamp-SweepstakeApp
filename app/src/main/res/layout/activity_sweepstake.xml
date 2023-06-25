@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SweepstakeActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/sweepstakeDetailImageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/sweepstakeDetailTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:paddingTop="10dp"
+            android:text="Draw Item Baslıgı"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sweepstakeDetailImageView"></TextView>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sweepstakeDetailTitleTextView">
+
+
+            <TextView
+                android:id="@+id/baslangicTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:drawableLeft="@drawable/arrow"
+                android:drawablePadding="5dp"
+                android:text="Son Katılım Tarihi: 2023"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:id="@+id/sonKatilimTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/arrow"
+                android:drawablePadding="5dp"
+                android:text="Son Katılım Tarihi: 2023"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:id="@+id/cekilisTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/arrow"
+                android:drawablePadding="5dp"
+                android:text="Son Katılım Tarihi: 2023"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:id="@+id/ilanTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/arrow"
+                android:drawablePadding="5dp"
+                android:text="Son Katılım Tarihi: 2023"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:id="@+id/minHarcamaTutarıTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/arrow"
+                android:drawablePadding="5dp"
+                android:text="Son Katılım Tarihi: 2023"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:id="@+id/toplamHediyeDegeriTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/arrow"
+                android:drawablePadding="5dp"
+                android:text="Son Katılım Tarihi: 2023"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:id="@+id/toplamHediyeSayısıTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:drawableLeft="@drawable/arrow"
+                android:drawablePadding="5dp"
+                android:text="Son Katılım Tarihi: 2023"
+                android:textSize="20dp"></TextView>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/followBtn"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginHorizontal="80dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingHorizontal="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="TAKİP ET"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button"
+            android:drawableStart="@drawable/baseline_favorite_24"
+            android:drawableTint="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    
+</ScrollView>

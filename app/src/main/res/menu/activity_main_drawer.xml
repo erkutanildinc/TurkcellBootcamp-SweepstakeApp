@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Ana Sayfa" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tatilKazanFragment"
+            android:icon="@drawable/vacation"
+            android:title="@string/menu_tatil" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/telefonKazanFragment"
+            android:icon="@drawable/telephonetablet"
+            android:title="@string/menu_telefon" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bedavaKatilim"
+            android:icon="@drawable/free"
+            android:title="@string/menu_bedava" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/arabaKazanFragment"
+            android:icon="@drawable/car"
+            android:title="@string/menu_araba" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/yeniBaslayanlarFragment"
+            android:icon="@drawable/newstart"
+            android:title="@string/menu_yeni" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/takipEttiklerimFragment"
+            android:icon="@drawable/baseline_favorite_24"
+            android:title="Takip Ettiklerim" />
+    </group>
+</menu>
